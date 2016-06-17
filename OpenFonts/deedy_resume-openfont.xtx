@@ -15,16 +15,16 @@
 % default. If you get compilation errors saying a font is missing, find the line
 % on which the font is used and either change it to a font included with your
 % operating system or comment the line out to use the default font.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
+%
 % TODO:
 % 1. Integrate biber/bibtex for article citation under publications.
 % 2. Figure out a smoother way for the document to flow onto the next page.
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % CHANGELOG:
@@ -47,10 +47,10 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
- 
+
 \pagestyle{fancy}
 \fancyhf{}
- 
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,8 +65,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+\namesection{David}{Noursi}{ \urlstyle{same}\href{http://people.cs.uchicago.edu/~dnoursi}{people.cs.uchicago.edu/~dnoursi}\\
+\703.336.7116 | \href{mailto:dnoursi@uchicago.edu}{dnoursi@uchicago.edu}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,68 +75,43 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.33\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+\section{Education}
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{University of Chicago}
+\descript{BS in Mathematics with Honors (expected)}
+\descript{BS in Computer Science with Honors (expected)}
+\location{Jun 2019 | Chicago, IL}
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\subsection{TJHSST}
+\location{Grad. Jun 2015 |  Alexandria, VA}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+\section{Links}
+Facebook:// \href{https://facebook/davidnoursi}{\bf davidnoursi} \\
+Github:// \href{https://github.com/dnoursi}{\bf dnoursi} \\
+LinkedIn://  \href{https://www.linkedin.com/in/dnoursi}{\bf dnoursi} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+Analysis x3 \\
+Markov Chains, Martingales, and Brownian Motion \\
+Honors Introduction to Haskell \\
+Honors Introduction to Computer Programming \\
+Introduction to Computer Systems \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -144,13 +119,11 @@ Unix Tools and Scripting \\
 
 \section{Skills}
 \subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+\location{Experienced:}
+Haskell \textbullet{} Python \textbullet{} Java \textbullet{} C
+\textbullet{} Shell \textbullet{} C++ \textbullet{} \LaTeX\
 \location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+CSS \textbullet{} SQL \textbullet{} Assembly
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -159,9 +132,9 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.66\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -178,7 +151,7 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \location{June 2014 – Sep 2014 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
+\item Led and shipped Yoda - the admin interface for the new Phoenix platform.
 \item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
 \end{tightemize}
 \sectionsep
@@ -205,20 +178,20 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \runsubsection{Cornell Robot Learning Lab}
 \descript{| Researcher}
 \location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.
 \sectionsep
 
 \runsubsection{Cornell Phonetics Lab}
 \descript{| Head Undergraduate Researcher}
 \location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
+\section{Awards}
 \begin{tabular}{rll}
 2014	     & top 52/2500  & KPCB Engineering Fellow\\
 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
@@ -233,11 +206,11 @@ Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
+\section{Publications}
 \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
 \bibliographystyle{abbrv}
 \bibliography{publications}
 \nocite{*}
 
-\end{minipage} 
+\end{minipage}
 \end{document}  \documentclass[]{article}
